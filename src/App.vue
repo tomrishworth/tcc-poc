@@ -48,6 +48,8 @@
         </div>
       </div>
 
+      <div class="line mx-auto my-5"></div>
+
       <div class="services">
         <a
           href="#"
@@ -361,6 +363,7 @@ export default {
         [...this.DOM.content.querySelectorAll(".section")].forEach(item =>
           this.items.push(new Item(item))
         );
+        console.log(this.DOM.content);
         // here we define which property will change as we scroll the page
         // in this case we will be translating on the y-axis
         // we interpolate between the previous and current value to achieve the smooth scrolling effect
@@ -466,7 +469,7 @@ export default {
     const preloadImages = () => {
       return new Promise((resolve, reject) => {
         imagesLoaded(
-          document.querySelectorAll(".content__item-img"),
+          document.querySelectorAll(".section-image"),
           { background: true },
           resolve
         );
@@ -483,12 +486,6 @@ export default {
       // Initialize the Smooth Scrolling
       new SmoothScroll();
     });
-
-    // this.loading = true;
-    // imagesLoaded("#hero", { background: true }, function() {
-    //   console.log("#hero background image loaded");
-    //   this.loading = false;
-    // });
   }
 };
 </script>
@@ -497,6 +494,16 @@ export default {
 @import "assets/scss/style.scss";
 
 $yellow: #fce300;
+
+.btn {
+  border-radius: 0;
+}
+
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: $yellow;
+}
 
 .label {
   color: #888;
