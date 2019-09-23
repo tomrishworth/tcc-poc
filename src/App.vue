@@ -57,7 +57,7 @@
         <div class="services">
           <div class="row">
             <div class="col-sm-8">
-              <a href="#" class="service service-lg" data-aos="fade-up" data-aos-delay="50">
+              <a href="#" class="service service-lg" data-aos="fade-up">
                 <div
                   class="service-inner"
                   style="background: url(https://res.cloudinary.com/webscope/image/upload/c_fill,f_auto,g_faces,h_480,w_756/v1569188045/The%20Conference%20Company/CoreNet_Symposium_LR-513_-_credited_3.jpg)"
@@ -76,7 +76,7 @@
               </a>
             </div>
             <div class="col-sm-4">
-              <a href="#" class="service service-sm" data-aos="fade-up" data-aos-delay="50">
+              <a href="#" class="service service-sm" data-aos="fade-up" data-aos-delay="100">
                 <div
                   class="service-inner"
                   style="background: url(https://res.cloudinary.com/webscope/image/upload/c_fit,f_auto,h_480,w_364/v1568795552/The%20Conference%20Company/img3.png)"
@@ -97,7 +97,7 @@
           </div>
           <div class="row">
             <div class="col-sm-4">
-              <a href="#" class="service service-sm" data-aos="fade-up" data-aos-delay="50">
+              <a href="#" class="service service-sm" data-aos="fade-up" data-aos-delay="200">
                 <div
                   class="service-inner"
                   style="background: url(https://res.cloudinary.com/webscope/image/upload/c_fit,f_auto,h_480,w_364/v1568795552/The%20Conference%20Company/img5.png)"
@@ -116,7 +116,7 @@
               </a>
             </div>
             <div class="col-sm-8">
-              <a href="#" class="service service-lg" data-aos="fade-up" data-aos-delay="50">
+              <a href="#" class="service service-lg" data-aos="fade-up" data-aos-delay="300">
                 <div
                   class="service-inner"
                   style="background: url(https://res.cloudinary.com/webscope/image/upload/c_scale,h_480,w_756/v1569189055/The%20Conference%20Company/WSAVA_Thur-1161_0.jpg)"
