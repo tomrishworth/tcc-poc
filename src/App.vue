@@ -4,6 +4,7 @@
       <header class="container d-flex align-items-center my-4">
         <div>
           <img
+            width="180"
             src="https://res.cloudinary.com/webscope/image/upload/v1568745889/The%20Conference%20Company/logo.png"
           />
         </div>
@@ -466,7 +467,6 @@ $yellow: #fce300;
   line-height: 1.1;
   span {
     display: block;
-
     &:nth-child(2) {
       animation-delay: 150ms;
     }
