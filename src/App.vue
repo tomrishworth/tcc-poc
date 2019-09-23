@@ -423,9 +423,11 @@ $yellow: #fce300;
   margin-left: auto;
   margin-right: auto;
   min-height: 650px;
-  background-image: url(https://res.cloudinary.com/webscope/image/upload/v1568832314/The%20Conference%20Company/hero.png);
+  // background-image: url(https://res.cloudinary.com/webscope/image/upload/v1568832314/The%20Conference%20Company/hero.png);
   // background-image: url(https://res.cloudinary.com/webscope/image/upload/v1569212793/The%20Conference%20Company/hero2.jpg);
+  background-image: url(https://res.cloudinary.com/webscope/image/upload/v1569213623/The%20Conference%20Company/IAPCO_EDGE_Taipei_0419_25.jpg);
   background-size: cover;
+  background-position: 80% center;
   position: relative;
 }
 
