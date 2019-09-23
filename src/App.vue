@@ -54,28 +54,6 @@
           </div>
         </div>
 
-        <!-- <div class="services">
-          <a
-            href="#"
-            class="service"
-            data-aos="fade-up"
-            :data-aos-delay="index * 50"
-            v-for="(service, index) in services"
-            :key="service.name"
-          >
-            <div class="service-inner" :style="{background: `url(${service.img})`}">
-              <div class="overlay"></div>
-              <div class="service-content">
-                <h3 class="service-name">{{service.name}}</h3>
-                <p class="service-blurb mb-4">{{service.blurb}}</p>
-                <div class="service-link text-center">
-                  <div class="btn btn-outline-light">Learn More</div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>-->
-
         <div class="services">
           <div class="row">
             <div class="col-sm-8">
@@ -264,7 +242,7 @@
           </div>
         </section>
 
-        <div class="border-top py-5">
+        <div class="border-top py-5 mb-5">
           <h3 class="h5 mb-3" data-aos="fade-up">What's on our minds</h3>
           <div class="row">
             <div class="col-sm-3" data-aos="fade-up" data-aos-delay="200">
@@ -450,9 +428,6 @@ $yellow: #fce300;
 }
 
 .hero-inner {
-  // max-width: 900px;
-  // margin-left: auto;
-  // margin-right: auto;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -504,38 +479,11 @@ $yellow: #fce300;
   }
 }
 
-// .intro {
-//   max-width: 900px;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-
-// .section {
-//   &:nth-child(even) {
-//     .section-image-wrapper {
-//       order: 2;
-//     }
-
-//     .section-content {
-//       order: 1;
-//       padding-left: 100px;
-//       padding-right: 100px;
-//     }
-//   }
-//   &:nth-child(odd) {
-//     .section-content {
-//       padding-left: 100px;
-//       padding-right: 100px;
-//     }
-//   }
-// }
-
 .section-image-wrapper {
   overflow: hidden;
 }
 
 .numbers {
-  // background: #f6f6f6;
   .number {
     font-size: 50px;
     font-weight: 500;
